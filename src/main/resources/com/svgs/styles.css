@@ -1,0 +1,78 @@
+/* Bold, Trivia Crack-inspired heading */
+.heading {
+    -fx-font-family: "Impact", sans-serif; /* Bold, strong font */
+    -fx-font-size: 42px;
+    -fx-font-weight: bold;
+    -fx-text-fill: #FFFFFF; /* White text for contrast */
+    
+    /* Bright, contrasting background */
+    -fx-background-color: #FF6F61; /* Bright red-orange for high contrast */
+    -fx-background-radius: 10px;
+    -fx-padding: 5px 15px;
+    
+    /* Bold yellow border and subtle shadow */
+    -fx-border-radius: 10px;
+    -fx-border-color: #FFCA3A; /* Bright yellow border */
+    -fx-border-width: 5px;
+    -fx-effect: dropshadow(gaussian, rgba(0, 0, 0, 0.25), 8, 0.5, 3, 3);
+}
+
+/* Question background styling for a trivia game */
+.question {  
+    -fx-font-family: "Arial", sans-serif; /* Clean font to improve readability */
+    -fx-font-size: 16px; /* Large font size for readability */
+    -fx-text-fill: #FFFFFF; /* White text for contrast */
+    -fx-wrap-text: true;
+}
+
+/* Custom button styling */
+.button {
+    -fx-background-color: #FF6F61; /* Bright red-orange color */
+    -fx-background-radius: 5px; /* Rounded corners */
+    -fx-font-family: "Impact", sans-serif;
+    -fx-font-size: 16px; /* Large font for easy readability */
+    -fx-text-fill: white; /* White text color */
+    -fx-padding: 5px 10px; /* Spacious padding */
+    -fx-border-radius: 5px; /* Consistent border radius */
+    -fx-border-color: #FFCA3A; /* Yellow border to match theme */
+    -fx-border-width: 1px;
+    -fx-effect: dropshadow(gaussian, rgba(0, 0, 0, 0.2), 6, 0.5, 3, 3); /* Shadow for depth */
+}
+
+
+/* Button hover effect */
+.button:hover {
+    -fx-background-color: #FFCA3A; /* Change to yellow on hover */
+    -fx-text-fill: black; /* Black text for contrast */
+    -fx-effect: dropshadow(gaussian, rgba(0, 0, 0, 0.4), 8, 0.6, 4, 4); /* Darker shadow */
+}
+
+
+
+/* Sleek, solid background for VBox */
+.outer-vbox {
+    -fx-background-color: #4CAF50; /* Solid green color for the background */
+    -fx-padding: 30px;
+    -fx-border-radius: 20px;
+    -fx-background-radius: 20px;
+    -fx-border-width: 3px;
+    -fx-border-color: #FFFFFF; /* White border for a clean look */
+    -fx-effect: dropshadow(gaussian, rgba(0, 0, 0, 0.4), 12, 0.4, 4, 4); /* Depth effect */
+}
+
+/* Default state for radio buttons */
+.radio-button .radio {
+    -fx-background-color: white; /* White background */
+    -fx-border-color: gray; /* Gray border */
+    -fx-border-width: 2px;
+    -fx-border-radius: 50%; /* Make the radio button circular */
+    -fx-padding: 5px;
+}
+
+
+/* Hover effect for radio buttons */
+.radio-button:hover .radio {
+    -fx-effect: dropshadow(gaussian, rgba(0, 0, 0, 0.3), 6, 0.5, 0, 0); /* Add shadow on hover */
+    -fx-border-color: gray; /* Gray border on hover */
+    -fx-border-radius: 50%; /* Keep the radio button circular */
+}
